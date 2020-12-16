@@ -1,0 +1,8 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+Layout/LineLength:
+  Max: 200
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
