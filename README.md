@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/gtkatakura/better-graphql-detect-invalid-id-field.svg?branch=master)](https://travis-ci.com/gtkatakura/better-graphql-detect-invalid-id-field)
+
 # BetterGraphQL::DetectInvalidIdField
 
 Detect invalid id field for GraphQL types by detecting divergent fields between nodes representing the same object.
