@@ -15,8 +15,6 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = 'http://mygemserver.com'
-
     spec.metadata['homepage_uri'] = spec.homepage
     spec.metadata['source_code_uri'] = 'http://github.com/gtkatakura/better-graphql-detect-invalid-id-field'
     spec.metadata['changelog_uri'] = 'http://github.com/gtkatakura/better-graphql-detect-invalid-id-field/blob/main/CHANGELOG.md'
