@@ -28,7 +28,10 @@ Add to your schema:
 class YourSchema < GraphQL::Schema
   query(QueryType)
 
-  use BetterGraphQL::DetectInvalidIdField if Rails.env.test? || Rails.env.development?
+  if Rails.env.test? || Rails.env.development?
+    require 'better_graphql/detect_invalid_id_field'
+    use ::BetterGraphQL::DetectInvalidIdField
+  end
 end
 ```
 
